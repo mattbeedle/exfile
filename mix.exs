@@ -55,7 +55,7 @@ defmodule Exfile.Mixfile do
   defp deps do
     [
       {:plug, "~> 1.0"},
-      {:ecto, "~> 1.0 or ~> 2.0", optional: true},
+      {:ecto, "~> 1.0 or ~> 2.0 or ~> 4", optional: true},
       {:phoenix, "~> 1.1", optional: true},
       {:phoenix_html, "~> 2.3", optional: true},
       {:poison, "~> 1.5 or ~> 2.0 or ~> 3.1", optional: true},
